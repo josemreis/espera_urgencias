@@ -24,4 +24,4 @@ if (!dir.exists("scripts")) {
 }
 
 
-## testing git. Try 2
+## testing git. Try with git2r
