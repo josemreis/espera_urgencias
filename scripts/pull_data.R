@@ -8,6 +8,9 @@
 ######################################################################################
 ### Setting things up
 ###-----------------------------------------------------------------------------------
+
+cat("\n>> Setting things up\n")
+
 ## Conditional instalation of the packages
 packs <- c("remotes", "tidyverse", "git2r","esperaR", "mailR")
 for (pack in packs) {
@@ -32,6 +35,7 @@ require(esperaR)
 require(stringr)
 require(readr)
 
+
 ## Working directory at file location
 # wd at file location
 setwd("/home/jmr/Dropbox/datasets_general/espera_urgencias")
@@ -42,14 +46,16 @@ setwd("/home/jmr/Dropbox/datasets_general/espera_urgencias")
 filename <- paste0("./data/", str_replace_all(Sys.time(), "\\:|\\s+", "_"), ".csv")
 
 if (!file.exists(filename)) {
-  
+    
+  cat(paste0("\n>> Collecting wait times data: ", Sys.time(), "\n"))
+
   # read in email for request headers and bug mails
   my_email <- read_lines("/home/jmr/my_gmail.txt")
   
   ## make the API call using esperaR::get_wait_times()
   er_dta <- try(get_wait_times_all(output_format = "data_frame",
                                request_headers = c(from = my_email),
-                               data_type = "surgery",
+                               data_type = "emergency",
                                sleep_time = 3), silent = TRUE)
   
   if (class(er_dta) == "try-error") {
@@ -69,11 +75,16 @@ if (!file.exists(filename)) {
     
   } else {
     
+    cat("\n>> Exporting\n")
+   
     ## export it
     write_csv(er_dta,
               path = filename)
     
-    ## push it to github
+    ## push it to github 
+    
+    cat("\n>> Pushing to github\n")   
+ 
     # comit message
     commit_msg <- paste0("added ", filename)
     
