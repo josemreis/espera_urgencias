@@ -40,7 +40,7 @@ require(readr)
 # wd at file location
 setwd("/home/jmr/Dropbox/datasets_general/espera_urgencias")
 
-### Pull urgency data
+### Pull emergency data
 ###---------------------------------------------------------------------
 ## create the file name and check if it exists
 filename <- paste0("./data/", str_replace_all(Sys.time(), "\\:|\\s+", "_"), ".csv")
