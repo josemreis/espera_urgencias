@@ -1,0 +1,7 @@
+## cron job
+## id:   espera_urgencias
+## tags: 
+## desc: pull ER wait time data
+10,45 5-23 * * * /usr/lib/R/bin/Rscript '/home/jmr/Dropbox/datasets_general/espera_urgencias/scripts/pull_data.R'  >> '/home/jmr/Dropbox/datasets_general/espera_urgencias/pull_data.log' 2>&1
+
+ 
