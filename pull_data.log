@@ -8557,3 +8557,36 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-03-27 01:15:03
+
+>> Exporting
+
+>> Pushing to github
+Error in add(repo = ".", path = filename) : 
+  Error in 'git2r_index_add_all': failed to rename lockfile to '/home/jmr/Dropbox/datasets_general/espera_urgencias/.git/objects/39/4967fc5f77bea3926fa1f96ad43f2bf56cc3db': Permission denied
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-03-27 01:35:03
+
+>> Exporting
+
+>> Pushing to github
