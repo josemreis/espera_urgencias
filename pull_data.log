@@ -29672,3 +29672,137 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/RtmpmQcfBU/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 16:46:00
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 16:55:35
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/Rtmpt0erol/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 17:10:15
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 17:15:09
+
+>> Exporting
+
+>> Pushing to github
+Error in default_signature(repo) : 
+  Error in 'git2r_signature_default': config value 'user.name' was not found
+Calls: commit -> default_signature
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Exporting
+
+>> Pushing to github
