@@ -29573,3 +29573,102 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/RtmpxeSU9p/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 16:13:19
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 12818 milliseconds
+Request failed [ERROR]. Retrying in 39.4 seconds...
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 16:15:18
+Error in curl::curl_fetch_memory(url, handle = handle): Recv failure: Network is unreachable
+Request failed [ERROR]. Retrying in 38.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Recv failure: Network is unreachable
+Request failed [ERROR]. Retrying in 4.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 13.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 15.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 59.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 51.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 20 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 54.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 51.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.8 seconds...
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-01 16:36:07
+
+>> Exporting
+
+>> Pushing to github
