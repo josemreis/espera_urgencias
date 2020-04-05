@@ -45180,3 +45180,21 @@ Loading required package: stringr
 Loading required package: readr
 
 >> Collecting wait times data: 2020-04-05 21:16:58
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Exporting
+
+>> Pushing to github
+Error in default_signature(repo) : 
+  Error in 'git2r_signature_default': config value 'user.name' was not found
+Calls: commit -> default_signature
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Exporting
+
+>> Pushing to github
