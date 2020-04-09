@@ -56591,3 +56591,206 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/RtmpmfAy1n/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-09 12:10:06
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-09 12:15:03
+
+>> Exporting
+
+>> Pushing to github
+Error in default_signature(repo) : 
+  Error in 'git2r_signature_default': config value 'user.name' was not found
+Calls: commit -> default_signature
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-09 12:35:03
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 28.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 37.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 37 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 26 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 24.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 11.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 28.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 13.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 20.5 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/RtmptMYMZa/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-09 12:45:07
+
+>> Exporting
+
+>> Pushing to github
+Error in default_signature(repo) : 
+  Error in 'git2r_signature_default': config value 'user.name' was not found
+Calls: commit -> default_signature
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-09 12:55:02
+
+>> Exporting
+
+>> Pushing to github
