@@ -65401,3 +65401,18 @@ Request failed [ERROR]. Retrying in 34.7 seconds...
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-11 20:35:03
+
+>> Exporting
+
+>> Pushing to github
