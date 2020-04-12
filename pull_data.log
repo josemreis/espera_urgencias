@@ -66154,3 +66154,20 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning messages:
+1: In .f(.x[[i]], ...) : No data retrieved for hospital (id): 545
+2: In .f(.x[[i]], ...) : No data retrieved for hospital (id): 2562
+3: In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-12 02:35:02
+
+>> Exporting
+
+>> Pushing to github
