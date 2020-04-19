@@ -94998,3 +94998,29 @@ In if (class(er_dta) == "try-error") { :
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Exporting
+
+>> Pushing to github
+Error in default_signature(repo) : 
+  Error in 'git2r_signature_default': config value 'user.name' was not found
+Calls: commit -> default_signature
+In addition: Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-19 23:35:03
+
+>> Exporting
+
+>> Pushing to github
