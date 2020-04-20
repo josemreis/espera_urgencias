@@ -95311,3 +95311,30 @@ Loading required package: readr
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 03:35:03
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Resolving timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 26.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Timeout was reached: [tempos.min-saude.pt] Connection timed out after 10000 milliseconds
+Request failed [ERROR]. Retrying in 16.5 seconds...
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 03:55:03
+
+>> Exporting
+
+>> Pushing to github
