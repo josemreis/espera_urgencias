@@ -95650,3 +95650,1321 @@ Request failed [403]. Retrying in 32.4 seconds...
 >> Exporting
 
 >> Pushing to github
+Warning message:
+In if (class(er_dta) == "try-error") { :
+  the condition has length > 1 and only the first element will be used
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+also installing the dependency ‘modelr’
+
+trying URL 'https://cloud.r-project.org/src/contrib/modelr_0.1.6.tar.gz'
+Content type 'application/x-gzip' length 121295 bytes (118 KB)
+==================================================
+downloaded 118 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/tidyverse_1.3.0.tar.gz'
+Content type 'application/x-gzip' length 712837 bytes (696 KB)
+==================================================
+downloaded 696 KB
+
+* installing *source* package ‘modelr’ ...
+** package ‘modelr’ successfully unpacked and MD5 sums checked
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘modelr’
+* removing ‘/usr/local/lib/R/site-library/modelr’
+* restoring previous ‘/usr/local/lib/R/site-library/modelr’
+* installing *source* package ‘tidyverse’ ...
+** package ‘tidyverse’ successfully unpacked and MD5 sums checked
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in rbind(info, getNamespaceInfo(env, "S3methods")) : 
+  number of columns of matrices must match (see arg 2)
+ERROR: lazy loading failed for package ‘tidyverse’
+* removing ‘/usr/local/lib/R/site-library/tidyverse’
+
+The downloaded source packages are in
+	‘/tmp/RtmphgRpyY/downloaded_packages’
+Warning messages:
+1: In install.packages(pack) :
+  installation of package ‘modelr’ had non-zero exit status
+2: In install.packages(pack) :
+  installation of package ‘tidyverse’ had non-zero exit status
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 06:45:05
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 06:55:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 17.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 13.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 18.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 5.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 22.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 45.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 58.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 32.6 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 07:10:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 15.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 16.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 34.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 4.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 15.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 47.5 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 07:15:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 6.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 20.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 54.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 48.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 07:35:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 58 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 41.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 9.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 10.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 22.1 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 07:45:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 18.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 11.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 15.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 14 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 35.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 43.3 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 07:55:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 19.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 40.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 43.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 56.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 57.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 20.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 51.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 19.7 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 08:10:03
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 27 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 12.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 12.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 49.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 32.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 54.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 33.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 08:15:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 31.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 11 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 10.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 41.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3.5 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 08:35:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 34.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 44.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 47.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 47.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 14.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 56.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 32 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 08:45:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 22.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 22.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 50.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 47.8 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 08:55:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 13.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 52.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 56.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 54.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 52.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 35.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 44 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 09:10:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 19.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 44 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 50.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.4 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 09:15:03
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 39.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 35.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 19.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 42.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 25.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 36.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 11.6 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 09:35:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 25.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 42.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 19.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 48.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 13.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 53 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 26.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 58.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 39.4 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 09:45:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 31.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 53.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 59.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 16 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 15.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 42.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 33.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 35.1 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 09:55:03
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 22.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 42.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 52.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 55.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 9.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38.8 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 10:10:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 28.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 10 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 36.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 54 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 26.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 5.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 52.2 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 10:15:03
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 17.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 43.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 25.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 12.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 47.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 39.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 53.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 23.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 16 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 10:35:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 13.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 40.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 25.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 30.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.6 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 10:45:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 50.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 7.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 53.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 14.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 5 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 10:55:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 20.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 20.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 8.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 21.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 2.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 58.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 17.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 45.2 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Installing package into ‘/usr/local/lib/R/site-library’
+(as ‘lib’ is unspecified)
+Warning: unable to access index for repository https://cloud.r-project.org/src/contrib:
+  cannot open URL 'https://cloud.r-project.org/src/contrib/PACKAGES'
+Warning message:
+package ‘tidyverse’ is not available (for R version 3.5.3) 
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 11:10:02
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 10.1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 49.5 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 1 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 29.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 43.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 32.3 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 3.4 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 38.9 seconds...
+java.lang.NoClassDefFoundError: javax/activation/DataHandler
+	at org.apache.commons.mail.Email.createMimeMessage(Email.java:1832)
+	at org.apache.commons.mail.Email.buildMimeMessage(Email.java:1268)
+	at org.apache.commons.mail.Email.send(Email.java:1436)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: java.lang.ClassNotFoundException
+	at RJavaClassLoader.findClass(RJavaClassLoader.java:383)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:588)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 8 more
+NULL
+Error: NoClassDefFoundError (Java): javax/activation/DataHandler
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 11:15:03
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 10 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 45 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 18.7 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 39.2 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 57.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 9.9 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 37.8 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 59.6 seconds...
+Error in curl::curl_fetch_memory(url, handle = handle): Could not resolve host: tempos.min-saude.pt
+Request failed [ERROR]. Retrying in 5.1 seconds...
+org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1410)
+	at org.apache.commons.mail.Email.send(Email.java:1437)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at RJavaTools.invokeMethod(RJavaTools.java:386)
+Caused by: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: smtp.gmail.com, 465; timeout 60000;
+  nested exception is:
+	java.net.UnknownHostException: smtp.gmail.com
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2053)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:697)
+	at javax.mail.Service.connect(Service.java:386)
+	at javax.mail.Service.connect(Service.java:245)
+	at javax.mail.Service.connect(Service.java:194)
+	at javax.mail.Transport.send0(Transport.java:253)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1400)
+	... 6 more
+Caused by: java.net.UnknownHostException: smtp.gmail.com
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:285)
+	at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:310)
+	at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:215)
+	at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2019)
+	... 13 more
+NULL
+Error: EmailException (Java): Sending the email to the following server failed : smtp.gmail.com:465
+Execution halted
+
+>> Setting things up
+Loading required package: git2r
+Loading required package: esperaR
+Loading required package: stringr
+Loading required package: readr
+
+>> Collecting wait times data: 2020-04-20 11:35:02
+
+>> Exporting
+
+>> Pushing to github
